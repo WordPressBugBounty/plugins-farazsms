@@ -1,0 +1,54 @@
+Version 2.7.3 - Sunday, 11th June 2023
+- Added edit functionality to WooCommerce order actions.
+- Fixed some reported bugs
+- Improved some translations.
+=======
+Version 2.7.2 - Thursday, 1th June 2023
+- Fixing the problem of the SMS section of marketing plugins not working properly
+- Fixed the problem of not recognizing some Digits plugin versions
+- Restore tracking code sending section, in all orders with any status.
+- Improved some translations.
+=======
+Version 2.7.1 - Sunday, 28th May 2023
+- Fixed showing included and excluded product.
+=======
+Version 2.7.0 - Saturday, 27th May 2023
+- Very attractive new WooCommerce SMS sending format. In this feature, you can send targeted SMS for any type of order in any situation.
+- Send an order survey SMS only if the order status is "completed".
+- The ability to add variables items, customer_name to the SMS text of the successful order survey.
+- Fixed the problem of not saving the mobile number in the phone book, in the action after registering the Elementor Pro form, and in the special newsletter widget for Elementor
+- Fixed the problem of the option not working (Send a verification code?) in the special newsletter widget for Elementor
+- Removing the tracking code sending meta box and tracking codes sent, from orders whose status is not completed.
+- Solving the problem of not recognizing the Digits plugin provided by Rast China, in the integrations section.
+- Fixed the problem of not sending the welcome message to the members of the newsletter if their names are not registered.
+=======
+Version 2.6.0 - Thursday, 4th May 2023
+- Fix Bugs and performance stability.
+=======
+Version 2.5.2 - Thursday, 20th Apr 2023
+- Fix Bugs and performance stability.
+=======
+Version 2.5.1 - Thursday, 20th Apr 2023
+- Fix Bugs and performance stability.
+=======
+Version 2.5.0 - Wednesday, 19th Apr 2023
+- Added new functionality that send the customer a link for review all products of him order.
+- Added new functionality for delete and sync subscribers in newsletter section.
+- Fix Bugs and performance stability.
+=======
+Version 2.3.1 - Thursday, 6th Apr 2023
+- Add 2 new action type for Gravity Froms plugin integration. Send sms to user or admin actions as pattern messages.
+- Fix Bugs and performance stability.
+=======
+Version 2.2.0 - Thursday, 23rd Mar 2023
+- Improved send tracking code functionality, so now user can select <post_service_provider> and <post_date>.
+- Fix Bugs and performance stability.
+=======
+Version 2.1.0 - Sunday, 19th Mar 2023
+- Add newsletter farazsms widget for elementor
+- Add action after submit form for Gravity Forms plugin.
+- Fix Bugs and performance stability.
+=======
+Version 2.0.0 - Wednesday, 22nd Nov 2022
+- Fix Bugs and performance stability.
+- Internationalize the new version of Farazsms plugin.

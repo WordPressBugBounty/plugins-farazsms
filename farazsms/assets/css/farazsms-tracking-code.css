@@ -1,0 +1,174 @@
+/* Main container */
+#fsms-tracking-code-container {
+    padding: 20px 10px;
+}
+
+/* Form inputs */
+#fsms-tracking-code-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#fsms-tracking-code-container input,
+#fsms-tracking-code-container select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit button */
+#fsms-tracking-code-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fsms_button {
+    border: none;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+}
+
+.fsms_button:hover {
+    background-color: #0056b3;
+}
+
+.fsms-success-message {
+    margin-top: 10px;
+    color: #2b7515;
+    background: #ecffd6;
+    border: 1px solid #617c42;
+    padding: 12px 8px;
+}
+
+.fsms_button--loading::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: fsms-button-loading-spinner 1s ease infinite;
+}
+
+.fsms_button--loading .button__text {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@keyframes fsms-button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+button.delete_subscriber.fsms_button {
+    padding: 7px 16px;
+}
+
+.fsms_form input.error {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+}
+
+div#fsms-tracking-code-button {
+    display: flex;
+    justify-content: center;
+}
+
+.fsms-error-message {
+    margin-top: 10px;
+    color: #ba3939;
+    background: #ffe0e0;
+    border: 1px solid #a33a3a;
+    padding: 12px 8px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    #fsms-tracking-code-container {
+        padding: 10px;
+    }
+
+    #fsms-tracking-code-container input,
+    #fsms-tracking-code-container select {
+        font-size: 14px;
+    }
+
+    .fsms_button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+
+/* Style for the message displayed when no tracking code data is found */
+#fsms-already-sent-tracking-codes p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the tracking code list */
+#fsms-already-sent-tracking-codes ul {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 10px;
+}
+
+#fsms-already-sent-tracking-codes li {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#fsms-already-sent-tracking-codes li strong {
+    font-weight: bold;
+}
+
+/* Style for the tracking code meta box */
+.already-sent-tracking-code {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.already-sent-tracking-code p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.already-sent-tracking-code p strong {
+    font-weight: bold;
+}
+
+
+

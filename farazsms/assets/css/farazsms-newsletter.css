@@ -1,0 +1,109 @@
+/* Style for form container */
+#fsms_newsletter {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+/* Style for input fields */
+.fsms_newsletter_input {
+    margin-bottom: 10px;
+    direction: rtl;
+}
+
+.fsms_newsletter_text {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #555555;
+}
+
+/* Style for submit button */
+.fsms_newsletter_submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fsms_newsletter_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0099ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fsms_newsletter_button:hover {
+    background-color: #0077cc;
+}
+
+/* Style for message box */
+#fsms_newsletter_message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    direction: rtl;
+}
+
+#fsms_newsletter_message.error {
+    background-color: #ffbacf;
+    border: 1px solid #ff072c;
+}
+#fsms_newsletter_message.success {
+    background-color: #c7ffba;
+    border: 1px solid #4dff07;
+}
+
+
+/* Style for completion buttons */
+#fsms_newsletter_completion {
+    margin-top: 20px;
+    display: none;
+}
+
+#fsms_newsletter_completion button {
+    margin-right: 10px;
+}
+
+/* Style for loading */
+.fsms_button--loading::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: fsms-button-loading-spinner 1s ease infinite;
+}
+
+@keyframes fsms-button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.fsms_button--loading .button__text {
+    visibility: hidden;
+    opacity: 0;
+}
